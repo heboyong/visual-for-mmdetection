@@ -2,7 +2,7 @@
 a simple code for visualize the heat map from backbone and fpn while test with mmdetection
 
 if you use two-stage detector, such as faster rcnn,please change the codes :
-#1. mmdet/models/detectors/two_stage.py
+# 1. mmdet/models/detectors/two_stage.py
 
     def extract_feat(self, img):
         x_backbone = self.backbone(img)
@@ -26,7 +26,7 @@ and:
         return self.roi_head.simple_test(
             x_fpn, proposal_list, img_metas, rescale=rescale),x_backbone,x_fpn
 
-#2.mmdet/apis/inference.py
+# 2.mmdet/apis/inference.py
 
     def inference_detector(model, img):
     .......
@@ -37,5 +37,5 @@ and:
 
 if you use other detectors, it is easy to change it like this
 
-I refer to some online code, this code is rough, not rigorous
+I refer to some codes , this code is rough and not rigorous
 
