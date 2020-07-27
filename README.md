@@ -38,7 +38,7 @@ and:
 if you use other detectors, it is easy to change it like this
 
 ## useage:
- 1:change the ` config `,`checkpoint`,`img`
+ 1:change the ` config `,`checkpoint`,`img` <br>
  2: run the code
 
 I refer to some codes , this code is rough and not rigorous
