@@ -1,4 +1,4 @@
-# grad-cam-for-mmdetection
+# visual-for-mmdetection
 a simple code for visualize the heat map from backbone and fpn while test with mmdetection
 
 ### if you use two-stage detector, such as faster rcnn,please change the codes :
